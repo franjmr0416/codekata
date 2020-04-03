@@ -1,7 +1,7 @@
 <?php 
     require_once __DIR__ . "/vendor/autoload.php";
     $client = new MongoDB\Client(
-    'mongodb+srv://spider:casio@cluster0-nq8wr.mongodb.net/test?retryWrites=true&w=majority');
+    'mongodb+srv://user:password@cluster0-nq8wr.mongodb.net/test?retryWrites=true&w=majority');
     $db = $client->codekata;
     /*
     if($client){
